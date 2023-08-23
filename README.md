@@ -29,6 +29,7 @@ The filename is required. All --options are optional.
 
 ```bash
 # can also be set in .zshrc file or similar
+# windows powershell is $env:OPENAI_API_KEY = 'yourkeyhere'
 export OPENAI_API_KEY=yourkeyhere
 # transcribe a file
 npx infinitered transcribe myfile.mp3 --format=json --prompt="Optional prompt" --output=mytranscription.txt
