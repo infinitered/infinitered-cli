@@ -28,6 +28,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "glob": "^10.3.3",
     "gluegun": "latest",
     "openai": "^4.0.1"
   },
